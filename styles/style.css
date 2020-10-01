@@ -87,7 +87,7 @@ html {
 
 .main__video {
     position: absolute;
-    right: 5%;
-    top: 5%;
+    left: 40%;
+    bottom: 8%;
     opacity: 0.8;
 }
