@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'Red October';
+	src: url('../fonts/RedOctoberLight.eot');
+	src: local('Red October Light'), local('RedOctoberLight'),
+		url('../fonts/RedOctoberLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RedOctoberLight.woff') format('woff'),
+		url('../fonts/RedOctoberLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../fonts/RedOctober-Fat.eot');
+	src: local('RedOctober-Fat'),
+		url('../fonts/RedOctober-Fat.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RedOctober-Fat.woff') format('woff'),
+		url('../fonts/RedOctober-Fat.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../fonts/RedOctober.eot');
+	src: local('Red October'), local('RedOctober'),
+		url('../fonts/RedOctober.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RedOctober.woff') format('woff'),
+		url('../fonts/RedOctober.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000;
+}
+/* *, *:after, *:before {
+	box-sizing: inherit;
+} */
+
+.main__bg {
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.csa-head {
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main__text {
+    position: absolute;
+        left: 33%;
+        top: 22%;
+    text-align: center;
+    color: white;
+    width: 500px;
+    height: 350px;
+    text-transform: uppercase;
+    font-family: 'Red October';
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000;
+    z-index: 2;
+}
+
+.main__text-bg {
+    position: absolute;
+    left: 33%;
+    top: 24%;
+    box-sizing: border-box;
+    width: 500px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.main__video {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    opacity: 0.8;
+}
