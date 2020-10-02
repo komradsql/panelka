@@ -51,6 +51,14 @@ html {
     z-index: -1;
 }
 
+.main__flex {
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .csa-head {
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,35 +69,20 @@ html {
 }
 
 .main__text {
-    position: absolute;
-        left: 33%;
-        top: 22%;
     text-align: center;
     color: white;
     width: 500px;
-    height: 350px;
+    height: 315px;
     text-transform: uppercase;
     font-family: 'Red October';
     font-size: 40px;
     font-weight: 900;
     text-shadow: 1px 1px 1px #000;
     z-index: 2;
-}
-
-.main__text-bg {
-    position: absolute;
-    left: 33%;
-    top: 24%;
     box-sizing: border-box;
-    width: 500px;
-    height: 350px;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: -1;
 }
 
 .main__video {
-    position: absolute;
-    left: 40%;
-    bottom: 6%;
     opacity: 0.8;
 }
